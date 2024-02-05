@@ -1,0 +1,33 @@
+{
+  "name": "cartesi-wallet",
+  "version": "1.0.0",
+  "description": "Wallet implementation for Cartesi Dapps to handle different types of Assets.",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "@types/jest": "^29.5.12",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.1.2",
+    "ts-node": "^10.9.2",
+    "tsup": "^8.0.1",
+    "typescript": "^5.3.3"
+  },
+  "scripts": {
+    "build": "tsup",
+    "test": "jest"
+  },
+  "author": "jj",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "A typescript based Wallet implementation for Cartesi Dapps to handle different types of assets."
+  },
+  "dependencies": {
+    "ethers": "^6.10.0",
+    "viem": "^2.7.3"
+  }
+}
