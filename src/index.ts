@@ -4,12 +4,7 @@ import {
   encodeFunctionData,
   getAddress,
   Address,
-  decodeAbiParameters,
-  ByteArray,
   hexToBytes,
-  bytesToHex,
-  parseAbiParameters,
-  hexToString,
   parseEther,
 } from "viem";
 import { CartesiDappABI, erc20ABI, erc721ABI } from "./rollups";
@@ -339,4 +334,4 @@ class Wallet {
   };
 }
 
-export { Wallet };
+export { Wallet, Voucher, Notice, Error_out, Log, Output, Report };

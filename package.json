@@ -1,6 +1,6 @@
 {
   "name": "cartesi-wallet",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Wallet implementation for Cartesi Dapps to handle different types of Assets.",
   "main": "./dist/index.js",
   "module": "./dist/index.mjs",
