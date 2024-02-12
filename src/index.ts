@@ -81,7 +81,8 @@ class Wallet {
       console.debug("input data is", input_data);
       return [
         getAddress(input_data[0]),
-        parseEther(String(parseInt(input_data[1])), "gwei"),
+        BigInt(input_data[1]),
+        //parseEther(String(parseInt(input_data[1])), "gwei"),
       ];
     } catch (e) {
       throw new EvalError(String(e));
