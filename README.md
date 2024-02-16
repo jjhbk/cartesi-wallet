@@ -1,4 +1,4 @@
-# CARTES-WALLET
+# CARTESI-WALLET
 
 This is a typescript based Wallet implementation for Cartesi Dapps to handle different types of Assets.
 
